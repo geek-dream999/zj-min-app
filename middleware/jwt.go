@@ -2,8 +2,9 @@ package middleware
 
 import (
 	"errors"
-	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"meet_directly/model/system/response"
+	"meet_directly/utils"
+
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"
 	"meet_directly/global"

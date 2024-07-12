@@ -4,3 +4,9 @@
 [github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 19:52:24.517	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
 [github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 19:52:24.523	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
 [github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 19:52:24.525	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 20:32:22.573	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 20:32:22.579	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 20:32:22.579	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 20:35:17.462	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 20:35:17.468	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-12 20:35:17.468	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}
