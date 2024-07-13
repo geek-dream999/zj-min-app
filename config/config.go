@@ -16,4 +16,7 @@ type Server struct {
 
 	// 跨域配置
 	Cors CORS `mapstructure:"cors" json:"cors" yaml:"cors"`
+
+	// 小程序登录
+	WChatLogin WChatLogin `mapstructure:"w-chat-login" json:"w-chat-login" yaml:"w-chat-login"`
 }

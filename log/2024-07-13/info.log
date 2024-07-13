@@ -1,0 +1,12 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:56:57.808	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:58:14.210	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:58:14.210	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:58:19.929	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:58:20.098	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:58:20.098	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:59:41.463	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:59:41.656	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 09:59:41.656	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 10:04:57.099	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 10:04:59.944	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-13 10:04:59.945	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}

@@ -3,16 +3,15 @@ package global
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/qiniu/qmgo"
+	"meet_directly/config"
+	wchatClient "meet_directly/pkg/MinApp"
 	"sync"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/utils/timer"
 	"github.com/songzhibin97/gkit/cache/local_cache"
 
 	"golang.org/x/sync/singleflight"
 
 	"go.uber.org/zap"
-
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
 
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/viper"
@@ -20,19 +19,18 @@ import (
 )
 
 var (
-	GVA_DB     *gorm.DB
-	GVA_DBList map[string]*gorm.DB
-	GVA_REDIS  redis.UniversalClient
-	GVA_MONGO  *qmgo.QmgoClient
-	GVA_CONFIG config.Server
-	GVA_VP     *viper.Viper
-	// GVA_LOG    *oplogging.Logger
+	GVA_DB                  *gorm.DB
+	GVA_DBList              map[string]*gorm.DB
+	GVA_REDIS               redis.UniversalClient
+	GVA_MONGO               *qmgo.QmgoClient
+	GVA_CONFIG              config.Server
+	GVA_VP                  *viper.Viper
 	GVA_LOG                 *zap.Logger
-	GVA_Timer               timer.Timer = timer.NewTimerTask()
-	GVA_Concurrency_Control             = &singleflight.Group{}
+	GVA_Concurrency_Control = &singleflight.Group{}
 	GVA_ROUTERS             gin.RoutesInfo
 	BlackCache              local_cache.Cache
 	lock                    sync.RWMutex
+	WChatLoginClient        wchatClient.MinLoginClient
 )
 
 // GetGlobalDBByDBName 通过名称获取db list中的db
@@ -51,4 +49,13 @@ func MustGetGlobalDBByDBName(dbname string) *gorm.DB {
 		panic("db no init")
 	}
 	return db
+}
+
+func NewWChatMinLogin() wchatClient.MinLoginClient {
+	cfg := GVA_CONFIG.WChatLogin
+	return wchatClient.NewWChatMinLogin(wchatClient.WChatLogin{
+		AppId:   cfg.AppId,
+		Secret:  cfg.Secret,
+		BaseUrl: cfg.BaseUrl,
+	})
 }

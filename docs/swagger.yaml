@@ -62,9 +62,53 @@ definitions:
       updatedAt:
         description: 更新时间
         type: string
+      user:
+        $ref: '#/definitions/system.SysUser'
       user_id:
         description: 用户id
         type: integer
+    type: object
+  system.SysUser:
+    properties:
+      ID:
+        description: 主键ID
+        type: integer
+      authorityId:
+        description: 用户角色ID
+        type: integer
+      baseColor:
+        description: 基础颜色
+        type: string
+      createdAt:
+        description: 创建时间
+        type: string
+      email:
+        description: 用户邮箱
+        type: string
+      enable:
+        description: 用户是否被冻结 1正常 2冻结
+        type: integer
+      headerImg:
+        description: 用户头像
+        type: string
+      nickName:
+        description: 用户昵称
+        type: string
+      phone:
+        description: 用户手机号
+        type: string
+      sideMode:
+        description: 用户侧边主题
+        type: string
+      updatedAt:
+        description: 更新时间
+        type: string
+      userName:
+        description: 用户登录名
+        type: string
+      uuid:
+        description: 用户UUID
+        type: string
     type: object
 info:
   contact: {}
