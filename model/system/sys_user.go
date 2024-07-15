@@ -23,3 +23,8 @@ type SysUser struct {
 func (SysUser) TableName() string {
 	return "sys_users"
 }
+
+type JwtBlacklist struct {
+	global.GVA_MODEL
+	Jwt string `gorm:"type:text;comment:jwt"`
+}

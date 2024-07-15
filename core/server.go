@@ -5,6 +5,7 @@ import (
 	"go.uber.org/zap"
 	"meet_directly/global"
 	"meet_directly/initialize"
+	"meet_directly/service/system"
 )
 
 type server interface {
@@ -26,10 +27,10 @@ func RunWindowsServer() {
 	//		zap.L().Error(fmt.Sprintf("%+v", err))
 	//	}
 	//}
-	// 从db加载jwt数据（黑名单，小程序端暂时用不到）
-	//if global.GVA_DB != nil {
-	//	system.LoadAll()
-	//}
+	// 从db加载jwt数据
+	if global.GVA_DB != nil {
+		system.LoadAll()
+	}
 
 	Router := initialize.Routers()
 	Router.Static("/form-generator", "./resource/page")

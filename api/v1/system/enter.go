@@ -5,6 +5,7 @@ import "meet_directly/service"
 type ApiGroup struct {
 	OperationRecordApi
 	BaseApi
+	JwtApi
 }
 
 var (

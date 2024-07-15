@@ -163,6 +163,27 @@ paths:
       summary: 用户登录--不需要密码
       tags:
       - Base
+  /jwt/jsonInBlacklist:
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: jwt加入黑名单
+          schema:
+            allOf:
+            - $ref: '#/definitions/response.Response'
+            - properties:
+                msg:
+                  type: string
+              type: object
+      security:
+      - ApiKeyAuth: []
+      summary: jwt加入黑名单--登出
+      tags:
+      - Jwt
   /sysOperationRecord/createSysOperationRecord:
     post:
       consumes:
