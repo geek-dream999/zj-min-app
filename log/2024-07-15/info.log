@@ -1,0 +1,3 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-15 14:48:58.871	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:59	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-15 14:48:58.882	[34minfo[0m	D:/projects/project-sn/meet_directly/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024-07-15 14:48:58.882	[34minfo[0m	D:/projects/project-sn/meet_directly/core/server.go:40	server run success on 	{"address": ":7788"}

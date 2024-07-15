@@ -128,5 +128,4 @@ type BaseResponse struct {
 const (
 	RequestSuccess    = "0" //请求成功
 	RequestSuccessInt = 0   //请求成功
-
 )
