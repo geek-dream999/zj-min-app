@@ -21,7 +21,7 @@ type SysUser struct {
 }
 
 func (SysUser) TableName() string {
-	return "sys_users"
+	return "zj_users"
 }
 
 type JwtBlacklist struct {
