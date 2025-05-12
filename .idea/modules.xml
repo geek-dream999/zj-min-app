@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/meet_directly.iml" filepath="$PROJECT_DIR$/.idea/meet_directly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/points.iml" filepath="$PROJECT_DIR$/.idea/points.iml" />
     </modules>
   </component>
 </project>

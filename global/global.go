@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/qiniu/qmgo"
 	"meet_directly/config"
-	wchatClient "meet_directly/pkg/MinApp"
+	wchatClient "meet_directly/pkg/min_app"
 	"sync"
 
 	"github.com/songzhibin97/gkit/cache/local_cache"

@@ -1,4 +1,4 @@
-package MinApp
+package min_app
 
 import (
 	"context"
