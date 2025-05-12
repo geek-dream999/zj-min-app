@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-const MySQLDSN = "root:@Waymon102092!@tcp(121.41.59.235:3306)/sainiao_wann?charset=utf8mb4&parseTime=True&loc=Local"
+const MySQLDSN = "root:@password!@tcp(ip:3306)/database?charset=utf8mb4&parseTime=True&loc=Local"
 
 func main() {
 	g := gen.NewGenerator(gen.Config{
